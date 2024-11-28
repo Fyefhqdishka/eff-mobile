@@ -1,8 +1,0 @@
-time=2024-11-27T22:49:27.781+05:00 level=INFO msg="server starting in port" !BADKEY=8000
-time=2024-11-27T22:49:58.482+05:00 level=DEBUG msg="client details song=" string=", group=" !BADKEY=string
-time=2024-11-27T22:49:58.492+05:00 level=ERROR msg="server response body:" !BADKEY="&{body:0xc000148480 mu:{state:0 sema:0} closed:false rerr:<nil> fn:0xfd9660 earlyCloseFn:0xfd9740}"
-time=2024-11-27T22:49:58.492+05:00 level=DEBUG msg="server response body:" !BADKEY="{\"id\":0,\"group_name\":\"string\",\"song\":\"string\",\"text\":\"first verse\\n\\nsecond verse\\n\\nthird verse\\n\\nfourth verse\\n\\n\",\"link\":\"https://www.youtube.com/watch?v=HRbW75fYLvo\\u0026t=326629s\",\"releasedate\":\"27.11.2024\"}"
-time=2024-11-27T22:49:58.493+05:00 level=DEBUG msg="url=" !BADKEY="http://localhost:8000/info?group=string&song=string"
-time=2024-11-27T22:49:58.493+05:00 level=INFO msg="Starting to create a song" song=string group_name=string
-time=2024-11-27T22:49:58.509+05:00 level=INFO msg="Song successfully created" song_id=20 song=string
-time=2024-11-27T22:49:58.509+05:00 level=INFO msg="started handle method create" !BADKEY="{ID:20 GroupName:string Song:string Text:first verse\n\nsecond verse\n\nthird verse\n\nfourth verse\n\n Link:https://www.youtube.com/watch?v=HRbW75fYLvo&t=326629s ReleaseDate:27.11.2024}"
