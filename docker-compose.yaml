@@ -1,0 +1,39 @@
+version: '3.9'
+
+services:
+
+  postgres:
+    image: postgres:latest
+    container_name: ${DB_HOST}
+    ports:
+      - 5432:${DB_PORT}
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASS}
+      - POSTGRES_DB=${DB_NAME}
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 2s
+      timeout: 3s
+      retries: 1
+    networks:
+      - appnet
+
+
+  app:
+    build:
+      dockerfile: ./Dockerfile
+    container_name: ${SRV_HOST}
+    ports:
+      - 8000:${SRV_PORT}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - appnet
+    volumes:
+      - ./logs:/logs
+
+networks:
+  appnet:
+    driver: bridge

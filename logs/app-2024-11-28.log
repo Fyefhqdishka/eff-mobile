@@ -1,0 +1,80 @@
+time=2024-11-28T07:52:02.813Z level=INFO msg="server starting in port" !BADKEY=8000
+time=2024-11-28T07:52:30.304Z level=DEBUG msg="client details song=" string=", group=" !BADKEY=string
+time=2024-11-28T07:52:30.307Z level=ERROR msg="server response body:" !BADKEY="&{body:0xc00051a640 mu:{state:0 sema:0} closed:false rerr:<nil> fn:0x784da0 earlyCloseFn:0x784e80}"
+time=2024-11-28T07:52:30.307Z level=DEBUG msg="server response body:" !BADKEY="{\"id\":0,\"group_name\":\"string\",\"song\":\"string\",\"text\":\"first verse\\n\\nsecond verse\\n\\nthird verse\\n\\nfourth verse\\n\\n\",\"link\":\"https://www.youtube.com/watch?v=HRbW75fYLvo\\u0026t=326629s\",\"releasedate\":\"28.11.2024\"}"
+time=2024-11-28T07:52:30.319Z level=DEBUG msg="url=" !BADKEY="http://app:8000/info?group=string&song=string"
+time=2024-11-28T07:52:30.319Z level=DEBUG msg="Starting to create a song" song=string group_name=string
+time=2024-11-28T07:52:30.324Z level=DEBUG msg="Song successfully created" song_id=1 song=string
+time=2024-11-28T07:52:50.949Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T07:52:50.949Z level=INFO msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=14 date=""
+time=2024-11-28T07:52:50.959Z level=DEBUG msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=14 date=""
+time=2024-11-28T07:53:18.161Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T07:53:18.161Z level=INFO msg="Parameters received" groupName="crystal castle" songName=string limit=10 offset=0 songID=14 date=string
+time=2024-11-28T07:53:18.162Z level=DEBUG msg="Parameters received" groupName="crystal castle" songName=string limit=10 offset=0 songID=14 date=string
+time=2024-11-28T07:53:45.798Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T07:53:45.799Z level=INFO msg="Parameters received" groupName=string songName=string limit=10 offset=0 songID=0 date=string
+time=2024-11-28T07:53:45.800Z level=DEBUG msg="Parameters received" groupName=string songName=string limit=10 offset=0 songID=0 date=string
+time=2024-11-28T07:54:01.918Z level=DEBUG msg="client details song=" string=", group=" !BADKEY=string
+time=2024-11-28T07:54:01.920Z level=ERROR msg="server response body:" !BADKEY="&{body:0xc00051a840 mu:{state:0 sema:0} closed:false rerr:<nil> fn:0x784da0 earlyCloseFn:0x784e80}"
+time=2024-11-28T07:54:01.920Z level=DEBUG msg="server response body:" !BADKEY="{\"id\":0,\"group_name\":\"string\",\"song\":\"string\",\"text\":\"first verse\\n\\nsecond verse\\n\\nthird verse\\n\\nfourth verse\\n\\n\",\"link\":\"https://www.youtube.com/watch?v=HRbW75fYLvo\\u0026t=326629s\",\"releasedate\":\"28.11.2024\"}"
+time=2024-11-28T07:54:01.920Z level=DEBUG msg="url=" !BADKEY="http://app:8000/info?group=string&song=string"
+time=2024-11-28T07:54:01.921Z level=DEBUG msg="Starting to create a song" song=string group_name=string
+time=2024-11-28T07:54:01.923Z level=DEBUG msg="Song successfully created" song_id=2 song=string
+time=2024-11-28T07:54:13.181Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T07:54:13.182Z level=INFO msg="Parameters received" groupName=string songName=string limit=10 offset=0 songID=2 date=string
+time=2024-11-28T07:54:13.182Z level=DEBUG msg="Parameters received" groupName=string songName=string limit=10 offset=0 songID=2 date=string
+time=2024-11-28T07:54:41.090Z level=DEBUG msg="starting to delete a song" string=string
+time=2024-11-28T07:54:41.100Z level=DEBUG msg=song: string=" deleted"
+time=2024-11-28T07:54:47.154Z level=DEBUG msg="starting to delete a song" string=string
+time=2024-11-28T07:54:47.154Z level=ERROR msg="can't delete song with id" !BADKEY=1 err:="sql: no rows in result set"
+time=2024-11-28T07:56:03.796Z level=INFO msg="server starting in port" !BADKEY=8000
+time=2024-11-28T07:58:25.592Z level=INFO msg="server starting in port" !BADKEY=8000
+time=2024-11-28T07:58:44.244Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T07:58:44.244Z level=INFO msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=1 date=""
+time=2024-11-28T07:58:44.246Z level=DEBUG msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=1 date=""
+time=2024-11-28T08:06:17.523Z level=INFO msg="server starting in port" !BADKEY=8000
+time=2024-11-28T08:06:34.447Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T08:06:34.447Z level=INFO msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=0 date=""
+time=2024-11-28T08:06:34.450Z level=DEBUG msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=0 date=""
+time=2024-11-28T08:06:44.328Z level=DEBUG msg="client details song=" string=", group=" !BADKEY=string
+time=2024-11-28T08:06:44.330Z level=ERROR msg="server response body:" !BADKEY="&{body:0xc000141180 mu:{state:0 sema:0} closed:false rerr:<nil> fn:0x784da0 earlyCloseFn:0x784e80}"
+time=2024-11-28T08:06:44.330Z level=DEBUG msg="server response body:" !BADKEY="{\"id\":0,\"group_name\":\"string\",\"song\":\"string\",\"text\":\"first verse\\n\\nsecond verse\\n\\nthird verse\\n\\nfourth verse\\n\\n\",\"link\":\"https://www.youtube.com/watch?v=HRbW75fYLvo\\u0026t=326629s\",\"releasedate\":\"28.11.2024\"}"
+time=2024-11-28T08:06:44.331Z level=DEBUG msg="url=" !BADKEY="http://app:8000/info?group=string&song=string"
+time=2024-11-28T08:06:44.331Z level=DEBUG msg="Starting to create a song" song=string group_name=string
+time=2024-11-28T08:06:44.336Z level=DEBUG msg="Song successfully created" song_id=1 song=string
+time=2024-11-28T08:06:47.790Z level=DEBUG msg="client details song=" string=", group=" !BADKEY=string
+time=2024-11-28T08:06:47.791Z level=ERROR msg="server response body:" !BADKEY="&{body:0xc0001413c0 mu:{state:0 sema:0} closed:false rerr:<nil> fn:0x784da0 earlyCloseFn:0x784e80}"
+time=2024-11-28T08:06:47.792Z level=DEBUG msg="server response body:" !BADKEY="{\"id\":0,\"group_name\":\"string\",\"song\":\"string\",\"text\":\"first verse\\n\\nsecond verse\\n\\nthird verse\\n\\nfourth verse\\n\\n\",\"link\":\"https://www.youtube.com/watch?v=HRbW75fYLvo\\u0026t=326629s\",\"releasedate\":\"28.11.2024\"}"
+time=2024-11-28T08:06:47.792Z level=DEBUG msg="url=" !BADKEY="http://app:8000/info?group=string&song=string"
+time=2024-11-28T08:06:47.793Z level=DEBUG msg="Starting to create a song" song=string group_name=string
+time=2024-11-28T08:06:47.803Z level=DEBUG msg="Song successfully created" song_id=2 song=string
+time=2024-11-28T08:06:50.961Z level=DEBUG msg="client details song=" string=", group=" !BADKEY=string
+time=2024-11-28T08:06:50.962Z level=ERROR msg="server response body:" !BADKEY="&{body:0xc0001f8100 mu:{state:0 sema:0} closed:false rerr:<nil> fn:0x784da0 earlyCloseFn:0x784e80}"
+time=2024-11-28T08:06:50.962Z level=DEBUG msg="server response body:" !BADKEY="{\"id\":0,\"group_name\":\"string\",\"song\":\"string\",\"text\":\"first verse\\n\\nsecond verse\\n\\nthird verse\\n\\nfourth verse\\n\\n\",\"link\":\"https://www.youtube.com/watch?v=HRbW75fYLvo\\u0026t=326629s\",\"releasedate\":\"28.11.2024\"}"
+time=2024-11-28T08:06:50.962Z level=DEBUG msg="url=" !BADKEY="http://app:8000/info?group=string&song=string"
+time=2024-11-28T08:06:50.963Z level=DEBUG msg="Starting to create a song" song=string group_name=string
+time=2024-11-28T08:06:50.965Z level=DEBUG msg="Song successfully created" song_id=3 song=string
+time=2024-11-28T08:06:53.584Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T08:06:53.585Z level=INFO msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=0 date=""
+time=2024-11-28T08:06:53.586Z level=DEBUG msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=0 date=""
+time=2024-11-28T08:08:15.074Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T08:08:15.075Z level=INFO msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=1 date=""
+time=2024-11-28T08:08:15.076Z level=DEBUG msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=1 date=""
+time=2024-11-28T08:08:31.965Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T08:08:31.966Z level=INFO msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=2 date=""
+time=2024-11-28T08:08:31.967Z level=DEBUG msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=2 date=""
+time=2024-11-28T08:09:05.108Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T08:09:05.109Z level=INFO msg="Parameters received" groupName=string songName=string limit=10 offset=0 songID=2 date=string
+time=2024-11-28T08:09:05.111Z level=DEBUG msg="Parameters received" groupName=string songName=string limit=10 offset=0 songID=2 date=string
+time=2024-11-28T08:21:44.435Z level=INFO msg="server starting in port" !BADKEY=8000
+time=2024-11-28T08:22:17.416Z level=DEBUG msg="client details song=" string=", group=" !BADKEY=string
+time=2024-11-28T08:22:17.418Z level=ERROR msg="server response body:" !BADKEY="&{body:0xc00141e180 mu:{state:0 sema:0} closed:false rerr:<nil> fn:0x784da0 earlyCloseFn:0x784e80}"
+time=2024-11-28T08:22:17.418Z level=DEBUG msg="server response body:" !BADKEY="{\"id\":0,\"group_name\":\"string\",\"song\":\"string\",\"text\":\"first verse\\n\\nsecond verse\\n\\nthird verse\\n\\nfourth verse\\n\\n\",\"link\":\"https://www.youtube.com/watch?v=HRbW75fYLvo\\u0026t=326629s\",\"releasedate\":\"28.11.2024\"}"
+time=2024-11-28T08:22:17.419Z level=DEBUG msg="url=" !BADKEY="http://app:8000/info?group=string&song=string"
+time=2024-11-28T08:22:17.419Z level=DEBUG msg="Starting to create a song" song=string group_name=string
+time=2024-11-28T08:22:17.432Z level=DEBUG msg="Song successfully created" song_id=1 song=string
+time=2024-11-28T08:22:22.416Z level=DEBUG msg="start retrieving songs/songs from the database"
+time=2024-11-28T08:22:22.416Z level=INFO msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=0 date=""
+time=2024-11-28T08:22:22.418Z level=DEBUG msg="Parameters received" groupName="" songName="" limit=10 offset=0 songID=0 date=""
+time=2024-11-28T08:32:04.117Z level=INFO msg="server starting in port" !BADKEY=8000
+time=2024-11-28T08:34:03.200Z level=INFO msg="server starting in port" !BADKEY=8000

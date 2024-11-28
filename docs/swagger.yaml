@@ -1,0 +1,227 @@
+basePath: /
+consumes:
+- application/json
+definitions:
+  handlers.Response:
+    properties:
+      message:
+        type: string
+      result: {}
+      status:
+        type: string
+    type: object
+  models.Song:
+    properties:
+      group_name:
+        type: string
+      id:
+        type: integer
+      link:
+        type: string
+      releasedate:
+        type: string
+      song:
+        type: string
+      text:
+        type: string
+    type: object
+info:
+  contact:
+    email: anuar.nassipov@gmail.com
+    url: https://github.com/Fyefhqdishka
+  description: API для управления библиотекой песен
+  title: Song Library API
+  version: "1.0"
+paths:
+  /songs:
+    get:
+      description: Returns a list of all songs with optional filtering and pagination
+      parameters:
+      - description: Limit
+        in: query
+        name: limit
+        type: integer
+      - description: Offset
+        in: query
+        name: offset
+        type: integer
+      - description: Song Id
+        in: query
+        name: id
+        type: integer
+      - description: Song title
+        in: query
+        name: song
+        type: string
+      - description: Group name
+        in: query
+        name: group_name
+        type: string
+      - description: Song release date in format 02.01.2006
+        in: query
+        name: releasedate
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Array of Song's
+          schema:
+            items:
+              $ref: '#/definitions/models.Song'
+            type: array
+        "400":
+          description: Invalid query parameters
+          schema:
+            $ref: '#/definitions/handlers.Response'
+        "500":
+          description: Failed to get Song's
+          schema:
+            $ref: '#/definitions/handlers.Response'
+      summary: Get all Song's from the storage
+      tags:
+      - songs
+    post:
+      consumes:
+      - application/json
+      description: Creates a new song with the given details
+      parameters:
+      - description: Song details
+        in: body
+        name: song
+        required: true
+        schema:
+          $ref: '#/definitions/models.Song'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Created song
+          schema:
+            $ref: '#/definitions/models.Song'
+        "400":
+          description: Bad Request
+          schema:
+            $ref: '#/definitions/handlers.Response'
+        "500":
+          description: Internal Server Error
+          schema:
+            $ref: '#/definitions/handlers.Response'
+      summary: Create a new song
+      tags:
+      - songs
+  /songs/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Deleted a song
+      parameters:
+      - description: Song details
+        in: body
+        name: song
+        required: true
+        schema:
+          $ref: '#/definitions/models.Song'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Updates song
+          schema:
+            $ref: '#/definitions/models.Song'
+        "400":
+          description: Invalid input
+          schema:
+            $ref: '#/definitions/handlers.Response'
+        "500":
+          description: Failed to update song
+          schema:
+            $ref: '#/definitions/handlers.Response'
+      summary: Delete a song
+      tags:
+      - songs
+    put:
+      consumes:
+      - application/json
+      description: Updated a song with the given details
+      parameters:
+      - description: Song details
+        in: body
+        name: song
+        required: true
+        schema:
+          $ref: '#/definitions/models.Song'
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Updates song
+          schema:
+            $ref: '#/definitions/models.Song'
+        "400":
+          description: Invalid input
+          schema:
+            $ref: '#/definitions/handlers.Response'
+        "500":
+          description: Failed to update song
+          schema:
+            $ref: '#/definitions/handlers.Response'
+      summary: Update a song
+      tags:
+      - songs
+  /songs/verses:
+    get:
+      description: Returns the verses of a song with optional filtering by group name
+        and song name, and pagination
+      parameters:
+      - description: Song Id
+        in: query
+        name: id
+        type: integer
+      - default: 1
+        description: Page number for pagination
+        in: query
+        name: page
+        type: integer
+      - default: 5
+        description: Number of verses per page
+        in: query
+        name: pageSize
+        type: integer
+      - description: Song title
+        in: query
+        name: song
+        type: string
+      - description: Group name
+        in: query
+        name: group_name
+        type: string
+      - description: Song release date in format 02.01.2006
+        in: query
+        name: releasedate
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: Array of song verses
+          schema:
+            items:
+              type: string
+            type: array
+        "400":
+          description: Invalid query parameters
+          schema:
+            $ref: '#/definitions/handlers.Response'
+        "500":
+          description: Failed to get song's verses
+          schema:
+            $ref: '#/definitions/handlers.Response'
+      summary: Get paginated song text (verses) from the storage
+      tags:
+      - songs
+produces:
+- application/json
+schemes:
+- http
+swagger: "2.0"
