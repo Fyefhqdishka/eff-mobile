@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d553187a-8fa1-4bd0-a9a5-def8d03abaed" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../../Program Files/Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Fyefhqdishka&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Fyefhqdishka/eff-mobile.git&quot;,
+    &quot;accountId&quot;: &quot;dd98296b-02b0-4bcb-838b-e218a72d2573&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2p9yjiSOdW9bWa8FBCTvgrnkjHj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build main.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCreateSong in github.com/Fyefhqdishka/eff-mobile/internal/handlers.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCreateSong in github.com/Fyefhqdishka/eff-mobile/internal/service (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestCreateSong in github.com/Fyefhqdishka/eff-mobile/internal/service.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestDeleteSong in github.com/Fyefhqdishka/eff-mobile/internal/service.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestGet in github.com/Fyefhqdishka/eff-mobile/internal/handlers.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestGetDetails in github.com/Fyefhqdishka/eff-mobile/internal/client (1).executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestGetDetails in github.com/Fyefhqdishka/eff-mobile/internal/client.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestGetSongs in github.com/Fyefhqdishka/eff-mobile/internal/service.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestGetVerses in github.com/Fyefhqdishka/eff-mobile/internal/service.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestGet_Error in github.com/Fyefhqdishka/eff-mobile/internal/handlers.executor&quot;: &quot;Run&quot;,
+    &quot;Go Test.TestUpdateSong in github.com/Fyefhqdishka/eff-mobile/internal/service.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anuar/Desktop/taska&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ],
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/SQL Dialect&quot;: [
+      &quot;PostgreSQL&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Anuar\Desktop\eff-mobile\internal\handlers" />
+      <recent name="C:\Users\Anuar\Desktop\eff-mobile\internal\handlers\response" />
+      <recent name="C:\Users\Anuar\Desktop\eff-mobile\internal\storage\repositories" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Test.TestGet_Error in github.com/Fyefhqdishka/eff-mobile/internal/handlers">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="eff-mobile" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCreateSong in github.com/Fyefhqdishka/eff-mobile/internal/handlers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="eff-mobile" />
+      <working_directory value="$PROJECT_DIR$/internal/handlers" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Fyefhqdishka/eff-mobile/internal/handlers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCreateSong\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGet in github.com/Fyefhqdishka/eff-mobile/internal/handlers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="eff-mobile" />
+      <working_directory value="$PROJECT_DIR$/internal/handlers" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Fyefhqdishka/eff-mobile/internal/handlers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGet\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetSongs in github.com/Fyefhqdishka/eff-mobile/internal/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="eff-mobile" />
+      <working_directory value="$PROJECT_DIR$/internal/service" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Fyefhqdishka/eff-mobile/internal/service" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGetSongs\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGetVerses in github.com/Fyefhqdishka/eff-mobile/internal/service" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="eff-mobile" />
+      <working_directory value="$PROJECT_DIR$/internal/service" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Fyefhqdishka/eff-mobile/internal/service" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGetVerses\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestGet_Error in github.com/Fyefhqdishka/eff-mobile/internal/handlers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="eff-mobile" />
+      <working_directory value="$PROJECT_DIR$/internal/handlers" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/Fyefhqdishka/eff-mobile/internal/handlers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestGet_Error\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="eff-mobile" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestGet_Error in github.com/Fyefhqdishka/eff-mobile/internal/handlers" />
+        <item itemvalue="Go Test.TestGet in github.com/Fyefhqdishka/eff-mobile/internal/handlers" />
+        <item itemvalue="Go Test.TestCreateSong in github.com/Fyefhqdishka/eff-mobile/internal/handlers" />
+        <item itemvalue="Go Test.TestGetVerses in github.com/Fyefhqdishka/eff-mobile/internal/service" />
+        <item itemvalue="Go Test.TestGetSongs in github.com/Fyefhqdishka/eff-mobile/internal/service" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-5df93f7ad4aa-df9ad98b711f-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.23339.24" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-GO-242.23339.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
